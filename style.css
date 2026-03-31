@@ -1,6 +1,62 @@
-h1{
-color: rgb(8, 142, 142);
-text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-forced-color-adjust: auto;
+h1 {
+    color: rgb(8, 142, 142);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    forced-color-adjust: auto;
+}
+
+#h5str {
+    color: rgb(26, 141, 141);
+}
+
+#afterpera {
+    color: rgb(73, 5, 5);
+    font-family: Lucida Sans;
+}
+
+#afterpera2 {
+    color: rgb(77, 83, 3);
+    font-family: Bahnschrift;
+}
+
+#afterpera3 {
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    display: block;
+    /* इमेज को ब्लॉक बनाएं */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    /* अपनी जरूरत के हिसाब से चौड़ाई सेट करें */
+}
+
+h2 {
+    text-align: center;
+}
+
+.myhr {
+    height: 8px;              /* यह आपका 'size' है */
+    width: 89%;               /* यह आपकी चौड़ाई है */
+    background-color: black;  /* यह आपका 'color' है */
+    border: none;             /* CSS में HR की डिफ़ॉल्ट बॉर्डर हटाना ज़रूरी है */
+    margin: 20px auto;        /* 'auto' इसे अपने आप सेंटर (align="center") कर देगा */
+}
+
+#afterpera4{
+
+    color: rgb(6, 35, 164);
+    font-family: Bahnschrift;
+}
+
+#maintitle {
+    width: 100%; /* यह पक्का करने के लिए कि कंटेनर पूरी चौड़ाई ले */
+}
+
+#credit {
+    text-align: right;
+    margin-right: 5%; /* थोडा सा गैप देने के लिए ताकि किनारे से न चिपके */
+    color: gray;      /* आप चाहें तो रंग बदल सकते हैं */
 }
