@@ -4,3 +4,15 @@ reserch base + ai use hoga for content only not coding
 i craet a new branch and add in github #test
 a
 i will a new change in collage & how to upload?
+
+//////////////////////////////////////
+
+अगर आप फाइल मैनेजर (File Explorer) के जरिए रीसायकल बिन के अंदर जाकर फाइल्स देखना और डिलीट करना चाहते हैं, तो इन आसान तरीकों में से कोई भी आज़माएँ:
+
+तरीका : सबसे आसान (Address Bar में लिखें)
+फाइल मैनेजर की ऊपर वाली पट्टी (Address Bar) में यह छोटा सा कोड पेस्ट करें और Enter दबाएं:
+shell:RecycleBinFolder
+
+यह कोड सीधे रीसायकल बिन को खोल देगा, चाहे वह कहीं भी छुपा हो।
+
+//////////////////////////////////////

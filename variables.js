@@ -1,4 +1,4 @@
-"use strict"; // अब कोड सख्ती से चेक होगा
+// "use strict"; // अब कोड सख्ती से चेक होगा
 
 const myname = "Tarun";
 let age = 19;
@@ -28,6 +28,50 @@ India`;
 // ध्यान दें: यहाँ \n (Backslash) यूज़ किया है
 console.log(`Candidate Name : ${namea} \nCandidate City : ${city} \nCandidate Address : \n${address}`);
 
+let num1 = 2;
+let num2 = 3;
+console.log("Multipication is : " + (num1 * num2));
+if (num1 + 1 == num2) {
+  console.log("working!");
+} else {
+  console.log("fail!");
+}
+
+let c1 = "dr"
+let c2 = "dr"
+console.log(c1 === c2);
+
+
+let tarunid = {
+  name: "tarun",
+  profasion: "bca",
+  age: 20,
+}
+console.log(tarunid);
+
+
+
+
+
+
+
+// ////////////////////////////////////////////////////////
+// data type
+// 1. primitive types 🤞🥱
+// string
+// Number
+// bullion
+// null
+// undefined
+// Symbol
+// BigInt
+
+
+
+
+
+
+
 
 /*
 📝 JavaScript Strings: नोट्स (Notes)JavaScript में किसी भी टेक्स्ट (Text) को String कहा जाता है। 
@@ -56,7 +100,7 @@ console.log(`Candidate Name : ${namea} \nCandidate City : ${city} \nCandidate Ad
 3. बैकविक्स (` `) - Backticks (Template Literals)यह सबसे आधुनिक और पावरफुल तरीका है। प्रोफेशनल कोडिंग में सबसे ज़्यादा इसी का इस्तेमाल होता है।
 क्यों इस्तेमाल करें:Variables जोड़ने के लिए: इसमें + लगाने की ज़रूरत नहीं पड़ती। आप सीधे ${variable} लिख सकते हैं।
 
-Multi-line टेक्स्ट: इसमें आप Enter दबाकर अगली लाइन में लिख सकते हैं, जो "" या '' में संभव नहीं है।
+Multi-line टेक्स्ट: इसमें आप Enter दबाक र अगली लाइन में लिख सकते हैं, जो "" या '' में संभव नहीं है।
 उदाहरण:JavaScriptlet name = "Rahul";
 console.log(`Hello, ${name}!`); // Variables को आसानी से जोड़ना
 
