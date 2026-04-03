@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<title>Pro Jaal Example</title>
+
+<style>
+
+/* ===== IDs (5 total) ===== */
+#app { border: 3px solid black; padding: 10px; }
+#header { background: lightblue; padding: 10px; }
+#nav { background: lightgreen; padding: 10px; }
+#main { background: #f5f5f5; padding: 10px; }
+#footer { background: lightcoral; padding: 10px; }
+
+/* ===== Classes (20+ 😎) ===== */
+.container { margin: 10px; }
+.flex { display: flex; }
+.center { text-align: center; }
+.bold { font-weight: bold; }
+.big { font-size: 20px; }
+.small { font-size: 12px; }
+.red { color: red; }
+.blue { color: blue; }
+.green { color: green; }
+.card { border: 1px solid gray; padding: 10px; margin: 10px; }
+.shadow { box-shadow: 2px 2px 5px gray; }
+.round { border-radius: 10px; }
+.btn { padding: 5px 10px; border: 1px solid black; }
+.btn-primary { background: blue; color: white; }
+.btn-danger { background: red; color: white; }
+.link { text-decoration: none; }
+.menu { list-style: none; }
+.item { margin: 5px; }
+.highlight { background: yellow; }
+.box { padding: 5px; border: 1px dashed black; }
+.title { font-weight: bold; }
+.subtitle { font-size: 14px; color: gray; }
+
+/* ===== Jaal Selectors 🔥 ===== */
+
+/* deep targeting */
+#app #main .card .title {
+    color: blue;
+}
+
+/* button inside card */
+#main .card .btn-primary {
+    background: darkblue;
+}
+
+/* nav menu items */
+#nav .menu .item .link {
+    color: green;
+}
+
+/* footer text */
+#footer .small {
+    color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="app" class="container">
+
+    <!-- HEADER -->
+    <div id="header" class="center bold big">
+        My Website 🔥
+    </div>
+
+    <!-- NAVBAR -->
+    <div id="nav">
+        <ul class="menu flex">
+            <li class="item"><a class="link" href="#">Home</a></li>
+            <li class="item"><a class="link" href="#">About</a></li>
+            <li class="item"><a class="link" href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- MAIN -->
+    <div id="main" class="container">
+
+        <div class="card shadow round">
+            <p class="title">Card 1</p>
+            <p class="subtitle">Basic info</p>
+            <button class="btn btn-primary">Click</button>
+        </div>
+
+        <div class="card shadow round highlight">
+            <p class="title">Card 2</p>
+            <p class="subtitle">Important info</p>
+            <button class="btn btn-danger">Delete</button>
+        </div>
+
+        <div class="card box">
+            <p class="title big red">Card 3</p>
+            <p class="small">Extra info</p>
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer" class="center">
+        <p class="small">© 2026 My Website</p>
+    </div>
+
+</div>
+
+</body>
+</html>

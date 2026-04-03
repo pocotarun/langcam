@@ -49,8 +49,9 @@ let tarunid = {
 }
 console.log(tarunid);
 
-
-
+///////////////////////////////////////////////
+String(agex);
+console.log(typeof agex);
 
 
 

@@ -1,12 +1,37 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Isse padding width ke andar rehti hai */
+} */
+
+
+body{
+background-color: rgb(253, 253, 253);
+
+
+}
+
+
+footer {
+    background-color: #011618; /* 'color' word hata do */
+    color: white;             /* Text white kar do taaki kale background pe dikhe */
+    padding: 20px 0;          /* Thoda gap dene ke liye */
+    width: 100vw;
+    height: auto;
+    text-shadow: #088e8e;
+}
+
+
 h1 {
-    color: rgb(8, 142, 142);
+    /* color: rgb(8, 142, 142); */
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     forced-color-adjust: auto;
-}
+} 
 
 #h5str {
     color: rgb(26, 141, 141);
+
 }
 
 #afterpera {
@@ -59,4 +84,33 @@ h2 {
     text-align: right;
     margin-right: 5%; /* थोडा सा गैप देने के लिए ताकि किनारे से न चिपके */
     color: gray;      /* आप चाहें तो रंग बदल सकते हैं */
+     text-decoration: none; 
+}
+
+nav {
+    background-color: #011618;
+    text-align: center;
+    padding: 20px 0;          /* Isse nav ki height badh jayegi (Top/Bottom gap) */
+    border-bottom: 2px solid #088e8e; /* Niche ek patli shining line */
+}
+
+nav a {
+    color: white;             /* Links ka color white */
+    text-decoration: none;    /* Niche ki underline hatane ke liye */
+    font-size: 1.2rem;        /* Font thoda bada karne ke liye */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 20px;           /* Do links ke beech mein gap */
+    transition: 0.3s;         /* Smooth transition effect ke liye */
+    font-weight: bold;
+}
+
+/* Jab mouse link ke upar jaye (Hover Effect) */
+nav a:hover {
+    color: #088e8e;           /* Color badal jayega */
+    text-shadow: 0 0 10px #088e8e; /* Halki glow aayegi */
+}
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Taaki ye baki photos ke upar rahe */
 }
