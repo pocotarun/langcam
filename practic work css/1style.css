@@ -1,21 +1,50 @@
-.html {
-    align-items: center;
-color:red ;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 250px;
-text-align: center;
-/* font-weight:; */
+/* पूरे पेज के लिए बेस सेटिंग */
+/* html {
+    font-size: 16px; /* स्टैंडर्ड बेस साइज */
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; /* हल्का बैकग्राउंड ताकि टेक्स्ट दिखे */
 }
 
-h1{
-color: brown;
-font-size: 50%;  /* 205px ka 50% hoga ya site screen k*/
+/* Footer स्टाइलिंग */
+footer {
+    background-color: rgb(19, 3, 3);
+    padding: 20px;
+    text-align: center;
 }
 
-#myid{
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 1rem;
-font-weight: 900;
-font-style: italic;
-text-align: center;
+h1 {
+    color: brown;
+    /* अगर 125px चाहिए तो यहाँ 7.8rem लिखें, 
+       50% लिखने से यह बहुत छोटा (8px) हो जाएगा */
+    font-size: 3rem; 
+    margin: 0;
 }
+
+/* Main Content Container */
+.l {
+    display: flex;         /* align-items के लिए ज़रूरी है */
+    flex-direction: column; /* ताकि टेक्स्ट ऊपर-नीचे आए */
+    align-items: center;    /* हॉरिजॉन्टल सेंटर */
+    justify-content: center; /* वर्टिकल सेंटर */
+    color: rgb(60, 60, 60); /* थोड़ा डार्क कलर ताकि सफेद पर दिखे */
+    text-align: center;
+    padding: 50px;
+}
+
+/* ID Selector */
+#myid {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+
+/* helped by gimini */
